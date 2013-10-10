@@ -3,9 +3,6 @@ from random import choice
 
 
 class Player(spade.Agent.Agent):
-    """
-    player which represents player
-    """
 
     class StartGameBehav(spade.Behaviour.OneShotBehaviour):
 
