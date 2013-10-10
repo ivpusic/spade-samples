@@ -8,7 +8,6 @@ class Player(spade.Agent.Agent):
     """
 
     class StartGameBehav(spade.Behaviour.OneShotBehaviour):
-        """behaviour receives messages from time ontology"""
 
         def _process(self):
             self.msg = spade.ACLMessage.ACLMessage()
