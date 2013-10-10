@@ -2,9 +2,6 @@ import spade
 
 
 class Judge(spade.Agent.Agent):
-    """
-    Sender class
-    """
 
     class WaitPlayersBehav(spade.Behaviour.OneShotBehaviour):
 
@@ -23,9 +20,6 @@ class Judge(spade.Agent.Agent):
                 self._exitcode = self.myAgent.TRANSLATION_TO_DEFAULT
 
     class GameApproveBehav(spade.Behaviour.OneShotBehaviour):
-        """
-        class for sending current time to client agent
-        """
 
         def _process(self):
 
