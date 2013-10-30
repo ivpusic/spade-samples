@@ -45,8 +45,8 @@ class ChatBot(spade.Agent.Agent):
             self.addBehaviour(self.InitChatBot())
 
 if __name__ == '__main__':
-    a = ChatBot('a@127.0.0.1', 'tajna', True)
-    b = ChatBot('b@127.0.0.1', 'tajna', False)
+    a = ChatBot('a@127.0.0.1', 'secret', True)
+    b = ChatBot('b@127.0.0.1', 'secret', False)
 
     a.start()
     b.start()
